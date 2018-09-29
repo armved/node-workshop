@@ -1,0 +1,16 @@
+{
+  "cars": [
+    {
+      "id": "4a497e7b-a43b-4d10-b436-0dd20da24fc1",
+      "title": "Sergey Black Lanos",
+      "number": "7979",
+      "model": "Daewoo Lanos"
+    },
+    {
+      "id": "3a4d8590-3060-4611-886b-1fac18710b5d",
+      "title": "Andrey White Toyota",
+      "number": "4442",
+      "model": "Toyota"
+    }
+  ]
+}

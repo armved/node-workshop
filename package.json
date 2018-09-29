@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node_modules/.bin/nodemon index.js NODE_ENV=development PORT=4000"
+    "dev": "NODE_ENV=development PORT=4000 node_modules/.bin/nodemon index.js"
+  },
+  "nodemon": {
+    "ignore": "db.json"
   },
   "repository": {
     "type": "git",
@@ -19,5 +22,11 @@
   "homepage": "https://github.com/armved/node-workshop#readme",
   "devDependencies": {
     "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "lowdb": "^1.0.0",
+    "uuid": "^3.3.2"
   }
 }
