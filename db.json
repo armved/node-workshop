@@ -1,16 +1,31 @@
 {
-  "cars": [
+  "sessions": [
     {
-      "id": "4a497e7b-a43b-4d10-b436-0dd20da24fc1",
-      "title": "Sergey Black Lanos",
-      "number": "7979",
-      "model": "Daewoo Lanos"
-    },
+      "username": "armved",
+      "token": "fa6fbb404f4a276c975569b211260ccc"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "armved",
+      "password": "qwerty",
+      "firstName": "Avetik",
+      "lastName": "Harutyunyan"
+    }
+  ],
+  "cars": [
     {
       "id": "3a4d8590-3060-4611-886b-1fac18710b5d",
       "title": "Andrey White Toyota",
       "number": "4442",
       "model": "Toyota"
+    },
+    {
+      "id": "c911fbd5-e719-4cf8-bfa7-9b6233d4898c",
+      "title": "Vazgen Black VAZ",
+      "number": "1234",
+      "model": "VAZ"
     }
   ]
 }
